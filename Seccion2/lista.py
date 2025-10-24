@@ -15,6 +15,8 @@ print(len(milista)) #si se pone justo abajo de if uvas no nos dara nada
 #es importante el orde de las lineas de codigo
 
 milista.append("Platano") #egregar elemento
+#for en python crea las variables automaticamente en este caso X
+#para este caso x va sobreescribiendo los valores conforme recorre los elementos 
 for x in milista:
     print(x)
 

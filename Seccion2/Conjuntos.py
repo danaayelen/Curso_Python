@@ -30,3 +30,26 @@ miset.add("cereza")
 for x in miset:
     print(x)
 print("------------")
+
+miset.remove("platano")
+miset.discard("cereza")
+for x in miset:
+    print(x)
+print("------------")
+x= miset.pop()
+#lo que hace es que saca un elemento de miset y ese lo guarda en x
+#el valor que saca es aleatorio de mi set
+print(x)
+print("------------")
+for x in miset:
+    print(x)
+print("------------")
+
+#clear limpiamos el set
+miset.clear()
+print(len(miset))
+print("------------")
+#del borramos del set
+del miset
+print("con del eliminamos el objeto set")
+print("------------")
